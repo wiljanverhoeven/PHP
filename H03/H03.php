@@ -21,7 +21,7 @@
 <?php
 
 for($row = 1; $row <= 10;$row++) {
-    echo "<img src='../images/simba".$row.".jpg' alt='kat' width='300' height='300'>";
+    echo "<img src='images/simba".$row.".jpg' alt='kat' width='300' height='300'>";
 }
 
 echo "<br>";
@@ -49,7 +49,7 @@ for($e = 1; $e <= 9; $e++) {
 } else {
     $class = "class='groen'";
 }
-echo "<img ".$class. "src='../images/simba".$e.".jpg' alt='kat' width='300' height='300'>";
+echo "<img ".$class. "src='images/simba".$e.".jpg' alt='kat' width='300' height='300'>";
 }
 
 echo "<br>";
